@@ -15,22 +15,10 @@
       button.setAttribute("aria-pressed", String(selected));
     });
     mapNodes.forEach(node => node.classList.toggle("is-selected", node.dataset.filter === active && active !== "all"));
-    const collection = document.querySelector("#collections");
-    if (collection && window.matchMedia("(max-width: 700px)").matches) {
-      collection.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (window.matchMedia("(max-width: 700px)").matches) {
+      document.querySelector("#collections")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }
 
-  filters.forEach(control => {
-    control.addEventListener("click", () => selectCategory(control.dataset.filter));
-  });
-
-  const menu = document.querySelector(".menu-toggle");
-  const nav = document.querySelector(".topbar nav");
-  if (menu && nav) {
-    menu.addEventListener("click", () => {
-      const open = nav.classList.toggle("open");
-      menu.setAttribute("aria-expanded", String(open));
-    });
-  }
+  filters.forEach(control => control.addEventListener("click", () => selectCategory(control.dataset.filter)));
 })();
