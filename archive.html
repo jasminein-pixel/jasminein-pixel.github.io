@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f1">
+  <meta name="description" content="A living collection of Jasmine's books, code notes, ideas, experiments, and curiosities.">
+  <title>The Archive — Jasmine Shrestha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="archive.css">
+</head>
+<body class="archive-page">
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="index.html" aria-label="Jasmine home">JA<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#work">Selected work</a>
+      <a class="active" href="archive.html" aria-current="page">Archive</a><a class="nav-contact" href="mailto:xthajasmine64@gmail.com">Say hello <span>↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <div class="interest-ticker" aria-label="A few things Jasmine is interested in">
+    <div class="ticker-track">
+      <div class="ticker-group"><span>COMPUTER ENGINEERING</span><i>✳</i><span>BUILDING THINGS</span><i>✳</i><span>BOOKS & BIG IDEAS</span><i>✳</i><span>OLIVIA RODRIGO ON REPEAT</span><i>✳</i><span>ALWAYS LEARNING</span><i>✳</i></div>
+      <div class="ticker-group" aria-hidden="true"><span>COMPUTER ENGINEERING</span><i>✳</i><span>BUILDING THINGS</span><i>✳</i><span>BOOKS & BIG IDEAS</span><i>✳</i><span>OLIVIA RODRIGO ON REPEAT</span><i>✳</i><span>ALWAYS LEARNING</span><i>✳</i></div>
+    </div>
+  </div>
+
+  <main>
+    <section class="archive-intro">
+      <div class="archive-kicker"><span>04</span><span class="kicker-line"></span><span>A PERSONAL KNOWLEDGE GARDEN</span></div>
+      <div class="archive-heading">
+        <div>
+          <p class="archive-overline">COLLECTED CURIOSITIES / VOL. 01</p>
+          <h1>The <em>Archive.</em></h1>
+          <p class="archive-deck">A living collection of things I’m learning, making, reading, and thinking about. Some are finished. Most are still growing.</p>
+          <a class="archive-jump" href="#collections">WANDER THROUGH <span>↓</span></a>
+        </div>
+        <div class="archive-aside"><span class="aside-star">✳</span><p>Not everything needs to become a project. Some things are worth keeping simply because they made me curious.</p><span class="aside-signature">J. SHRESTHA / 2026—</span></div>
+      </div>
+    </section>
+
+    <section class="garden-section" aria-labelledby="garden-title">
+      <div class="garden-heading">
+        <div><span class="section-index">01 / THE MAP</span><h2 id="garden-title">Follow a thought<span>.</span></h2></div>
+        <p>Choose a branch. See where it leads.</p>
+      </div>
+      <div class="garden-map" aria-label="Interactive archive map">
+        <svg class="garden-lines" viewBox="0 0 1000 520" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M500 260 C390 260 370 90 245 90"/><path d="M500 260 C390 260 370 190 245 190"/><path d="M500 260 C390 260 370 290 245 290"/><path d="M500 260 C390 260 370 390 245 390"/><path d="M500 260 C390 260 370 475 245 475"/>
+          <path d="M500 260 C620 260 630 90 755 90"/><path d="M500 260 C620 260 630 190 755 190"/><path d="M500 260 C620 260 630 290 755 290"/><path d="M500 260 C620 260 630 390 755 390"/><path d="M500 260 C620 260 630 475 755 475"/>
+          <path class="branch-detail" d="M245 90 C190 90 165 55 95 55 M245 190 C190 190 165 155 95 155 M245 290 C190 290 165 255 95 255 M245 390 C190 390 165 355 95 355 M245 475 C190 475 165 445 95 445"/>
+          <path class="branch-detail" d="M755 90 C810 90 835 55 905 55 M755 190 C810 190 835 155 905 155 M755 290 C810 290 835 255 905 255 M755 390 C810 390 835 355 905 355 M755 475 C810 475 835 445 905 445"/>
+        </svg>
+        <div class="map-root"><span class="root-star">✳</span><span><small>THE STARTING POINT</small><strong>Jasmine’s<br>Archive</strong></span></div>
+        <div class="map-branch branch-left">
+          <button class="map-node" data-filter="books"><span class="node-symbol">▤</span>Books</button><span class="map-leaves">The Mountain Is You<br>Reading notes</span>
+          <button class="map-node" data-filter="code"><span class="node-symbol">⌘</span>Code notes</button><span class="map-leaves">C++ · Python<br>Concepts to keep</span>
+          <button class="map-node" data-filter="ideas"><span class="node-symbol">✳</span>Ideas</button><span class="map-leaves">QueueLess<br>Things to build</span>
+          <button class="map-node" data-filter="experiments"><span class="node-symbol">⌁</span>Experiments</button><span class="map-leaves">Prototypes<br>Learning by trying</span>
+          <button class="map-node" data-filter="culture"><span class="node-symbol">♫</span>Culture</button><span class="map-leaves">Films · music<br>Olivia Rodrigo</span>
+        </div>
+        <div class="map-branch branch-right">
+          <button class="map-node" data-filter="ideas"><span class="node-symbol">↗</span>Things to explore</button><span class="map-leaves">Questions<br>Possibilities</span>
+          <button class="map-node" data-filter="code"><span class="node-symbol">{ }</span>Developer shelf</button><span class="map-leaves">Patterns<br>Useful snippets</span>
+          <button class="map-node" data-filter="experiments"><span class="node-symbol">⌘</span>In progress</button><span class="map-leaves">ScholarSync<br>QueueLess</span>
+          <button class="map-node" data-filter="books"><span class="node-symbol">◌</span>What stays</button><span class="map-leaves">Takeaways<br>Favourite passages</span>
+          <button class="map-node" data-filter="culture"><span class="node-symbol">✧</span>Little obsessions</button><span class="map-leaves">Stories<br>Songs & scenes</span>
+        </div>
+      </div>
+      <p class="map-caption"><span class="blue-dot"></span> THE MAP IS A STARTING POINT. EVERY BRANCH OPENS A COLLECTION BELOW.</p>
+    </section>
+
+    <section class="collections-section" id="collections">
+      <div class="collection-top">
+        <div><span class="section-index">02 / THE COLLECTIONS</span><h2>Pick a thread<span>.</span></h2></div>
+        <p>A few things on my mind, gathered in one place.</p>
+      </div>
+      <div class="collection-controls" role="group" aria-label="Filter archive entries">
+        <button class="filter-button is-active" data-filter="all" aria-pressed="true">Everything <span>05</span></button>
+        <button class="filter-button" data-filter="books" aria-pressed="false">Books</button>
+        <button class="filter-button" data-filter="code" aria-pressed="false">Code notes</button>
+        <button class="filter-button" data-filter="ideas" aria-pressed="false">Ideas</button>
+        <button class="filter-button" data-filter="experiments" aria-pressed="false">Experiments</button>
+        <button class="filter-button" data-filter="culture" aria-pressed="false">Culture</button>
+      </div>
+      <div class="collection-layout">
+        <div class="entry-grid" id="entry-grid" aria-live="polite">
+          <article class="archive-entry" data-category="books"><div class="entry-top"><span>BOOKS / 001</span><span class="entry-status">CURRENTLY READING</span></div><h3>The Mountain Is You</h3><p>A reading-in-progress shelf. A place to collect the ideas, questions, and takeaways I want to remember as I read.</p><div class="entry-bottom"><span>SELF-REFLECTION</span><span>↗</span></div></article>
+          <article class="archive-entry" data-category="code"><div class="entry-top"><span>CODE NOTES / 001</span><span class="entry-status">GROWING LIST</span></div><h3>Things worth remembering</h3><p>A future home for C++ concepts, Python discoveries, SQL patterns, algorithms, and the explanations that finally make them click.</p><div class="entry-bottom"><span>C++ · PYTHON · SQL</span><span>↗</span></div></article>
+          <article class="archive-entry" data-category="ideas"><div class="entry-top"><span>IDEAS / 001</span><span class="entry-status">IN THE NOTEBOOK</span></div><h3>Problems worth solving</h3><p>QueueLess began with a simple question: can a campus canteen feel less like a queue and more like a smooth little system?</p><div class="entry-bottom"><span>PRODUCT THINKING</span><span>↗</span></div></article>
+          <article class="archive-entry" data-category="experiments"><div class="entry-top"><span>EXPERIMENTS / 001</span><span class="entry-status">IN PROGRESS</span></div><h3>Building things from scratch</h3><p>A log for prototypes, interfaces, technical experiments, and the useful lessons that come from trying before everything is figured out.</p><div class="entry-bottom"><span>MAKE · TEST · LEARN</span><span>↗</span></div></article>
+          <article class="archive-entry" data-category="culture"><div class="entry-top"><span>CULTURE / 001</span><span class="entry-status">ALWAYS COLLECTING</span></div><h3>Songs, stories & scenes</h3><p>A corner for films, music, and creative work that stays in my head longer than expected. Olivia Rodrigo gets a shelf of her own.</p><div class="entry-bottom"><span>MUSIC · FILM · CULTURE</span><span>↗</span></div></article>
+        </div>
+        <aside class="archive-note"><span class="note-label">A NOTE TO SELF</span><span class="note-mark">“</span><p>Keep the things that make you curious. Follow a few. Let the rest wait.</p><span class="note-byline">— JASMINE</span><div class="note-rule"></div><span class="note-count">05 STARTING POINTS<br>AN OPEN-ENDED COLLECTION</span></aside>
+      </div>
+    </section>
+
+    <section class="archive-bottom"><span class="section-index">03 / STILL GROWING</span><p>This archive is intentionally unfinished. New branches will appear as I learn, build, read, and change my mind.</p><a href="mailto:xthajasmine64@gmail.com">HAVE SOMETHING INTERESTING? SAY HELLO ↗</a></section>
+  </main>
+  <footer class="footer section-wrap"><a class="wordmark" href="index.html">JA<span>®</span></a><span class="mono">A SMALL RECORD OF A CURIOUS MIND</span><span class="mono">© 2026 JASMINE SHRESTHA</span><a href="#" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+  <script src="archive.js"></script>
+</body>
+</html>
