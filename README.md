@@ -1,4 +1,4 @@
-# Jasmine Archive — Portfolio Website
+# Jasmine Shrestha's portfolio website
 
 A responsive editorial-style portfolio for Jasmine Shrestha, built with HTML, CSS, and vanilla JavaScript.
 
